@@ -1,0 +1,24 @@
+{
+    "name": "crasphb/klarna_xms",
+    "description": "Official Klarna REST PHP SDK",
+    "homepage": "http://developers.klarna.com",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Klarna AB"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Klarna\\": "src/Klarna/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Klarna\\Rest\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0"
+    }
+}
